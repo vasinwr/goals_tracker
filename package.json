@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/vasinwr/goals_tracker.git"
   },
+  "bin": {
+    "goals" : "index.js"
+  },
   "keywords": [
     "goals_tracker"
   ],
