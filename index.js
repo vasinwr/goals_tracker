@@ -3,15 +3,30 @@
 'use strict';
 
 const program = require('commander');
-
-let sayFunction = () => {
-  console.log("hi");
-}
+var handler = require('./lib/handler');
 
 program
   .version('0.0.1')
   .command('say')
   .description('say something')
-  .action(sayFunction);
+  .action(handler.say);
+
+program
+  .version('0.0.1')
+  .command('list')
+  .alias('ls')
+  .description('list all goals')
+  .action(handler.list);
+
+program
+  .version('0.0.1')
+  .command('add <goal_name>')
+  .description('add new goal')
+  .action(handler.add);
 
 program.parse(process.argv);
+
+if (typeof cmdValue === 'undefined') {
+  console.log(program.help());
+  process.exit(1);
+}
