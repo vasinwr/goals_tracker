@@ -1,0 +1,25 @@
+{
+  "name": "goals_tracker",
+  "version": "1.0.0",
+  "description": "to be more focused",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasinwr/goals_tracker.git"
+  },
+  "keywords": [
+    "goals_tracker"
+  ],
+  "author": "vasinwr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasinwr/goals_tracker/issues"
+  },
+  "homepage": "https://github.com/vasinwr/goals_tracker#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
