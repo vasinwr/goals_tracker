@@ -1,4 +1,4 @@
 node-json-db
 *.swp
 node_modules
-myDataBase.json
+.myDataBase.json

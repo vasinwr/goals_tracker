@@ -13,6 +13,12 @@ program
 
 program
   .version('0.0.1')
+  .command('init')
+  .description('create a common goal database for your project')
+  .action(handler.init);
+
+program
+  .version('0.0.1')
   .command('list')
   .alias('ls')
   .description('list all goals')
