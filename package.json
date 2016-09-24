@@ -11,7 +11,7 @@
     "url": "git+https://github.com/vasinwr/goals_tracker.git"
   },
   "bin": {
-    "goals" : "index.js"
+    "goals": "index.js"
   },
   "keywords": [
     "goals_tracker"
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/vasinwr/goals_tracker#readme",
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "node-json-db": "^0.7.3"
   }
 }

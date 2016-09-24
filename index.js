@@ -3,7 +3,7 @@
 'use strict';
 
 const program = require('commander');
-var handler = require('./lib/handler');
+const handler = require('./lib/handler');
 
 program
   .version('0.0.1')
@@ -24,9 +24,20 @@ program
   .description('add new goal')
   .action(handler.add);
 
+program
+  .version('0.0.1')
+  .command('remove <goal_name>')
+  .alias('rm')
+  .description('remove goal')
+  .action(handler.remove);
+
 program.parse(process.argv);
 
+/*
+//TODO: fix this
 if (typeof cmdValue === 'undefined') {
   console.log(program.help());
   process.exit(1);
 }
+*/
+
