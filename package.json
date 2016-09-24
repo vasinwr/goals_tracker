@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/vasinwr/goals_tracker#readme",
   "dependencies": {
+    "colors": "^1.1.2",
     "commander": "^2.9.0",
     "node-json-db": "^0.7.3"
   }

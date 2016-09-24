@@ -3,6 +3,7 @@
 'use strict';
 
 const program = require('commander');
+var colors = require('colors');
 const handler = require('./lib/handler');
 
 program
