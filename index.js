@@ -3,7 +3,6 @@
 'use strict';
 
 const program = require('commander');
-var colors = require('colors');
 const handler = require('./lib/handler');
 
 program
@@ -28,6 +27,7 @@ program
 program
   .version('0.0.1')
   .command('add <goal_name>')
+  .option('-t, --task [task]', 'Add [task] to goal')
   .description('add new goal')
   .action(handler.add);
 
