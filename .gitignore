@@ -1,4 +1,4 @@
 node-json-db
-*.swp
+.*.sw*
 node_modules
 .myDataBase.json
