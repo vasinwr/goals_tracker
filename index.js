@@ -27,13 +27,14 @@ program
 program
   .version('0.0.1')
   .command('add <goal_name>')
-  .option('-t, --task [task]', 'Add [task] to goal')
+  .option('-t, --task [task]', 'Add task to goal')
   .description('add new goal')
   .action(handler.add);
 
 program
   .version('0.0.1')
   .command('remove <goal_name>')
+  .option('-t, --task [task_number]', 'remove task number from goal')
   .alias('rm')
   .description('remove goal')
   .action(handler.remove);
