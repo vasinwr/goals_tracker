@@ -25,6 +25,7 @@
   "dependencies": {
     "colors": "^1.1.2",
     "commander": "^2.9.0",
-    "node-json-db": "^0.7.3"
+    "node-json-db": "^0.7.3",
+    "prompt": "^1.0.0"
   }
 }
