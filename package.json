@@ -1,6 +1,6 @@
 {
   "name": "goals_tracker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cli to do list for productivity boost",
   "main": "index.js",
   "scripts": {
