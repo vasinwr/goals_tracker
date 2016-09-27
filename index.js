@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 'use strict';
-
 const program = require('commander');
 const handler = require('./lib/handler');
 
@@ -39,13 +38,13 @@ program
   .description('remove goal')
   .action(handler.remove);
 
+program
+  .command('done <goal_name>')
+  .option('-t, --task [task_number]', 'remove task number from goal')
+  .description('done with task')
+  .action(handler.done);
+
 program.parse(process.argv);
 
-/*
-//TODO: fix this
-if (typeof cmdValue === 'undefined') {
-  console.log(program.help());
-  process.exit(1);
-}
-*/
+
 
