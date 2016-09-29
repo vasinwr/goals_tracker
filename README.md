@@ -4,7 +4,7 @@ goals_tracker is an enhanced todo list used in command-line environment. Current
 
 Versions
 --
-Version 1.1.0 - only 1 goals list per git repository. Note: make sure you uses goals inside a git directory.
+Version 1.1.0 - only 1 goals list per git repository. Note: make sure you uses goals inside a git directory. <br>
 Version 1.0.1 - goals list is unique per directory.
 
 Installation
